@@ -62,11 +62,15 @@ body {
     flex-direction: column;
 }
 
-.induction-section {
+.article-section {
     display: flex;
 }
 
-.pre-book {
+.article-details.right {
+    margin-left: 50px;
+}
+
+.action-button {
     padding: 8px 15px;
     text-decoration: none;
     background-color: orangered;
@@ -97,8 +101,15 @@ body {
 .product-category {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    row-gap: 50px;
 }
+
+.product-title,
+.produc-description,
+.product-price {
+    margin: 10px 0;
+}
+
 
 .product-image {
     width: 90%;
