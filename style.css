@@ -88,3 +88,26 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+/* Product Category  */
+/* Product Category  */
+/* Product Category  */
+.product-category {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.product-image {
+    width: 90%;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.fa-star.empty-star {
+    color: rgb(202, 202, 202);
+}
