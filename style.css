@@ -5,6 +5,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.page-margin {
+    width: 1250px;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -36,24 +40,27 @@ body {
 .induction-section {
     display: flex;
 }
-.pre-book{
-  padding: 8px 15px;
-  text-decoration: none;
-  background-color: orangered;
-  color: white;
-  border-radius: 10px;
+
+.pre-book {
+    padding: 8px 15px;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
 }
-.fa-arrow-right{
-  padding-left: 6px;
+
+.fa-arrow-right {
+    padding-left: 6px;
 }
+
 .article-image {
     width: 40%;
     height: 40%;
 }
 
-.partner-logo{
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.partner-logo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
