@@ -5,16 +5,28 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    color: #3A3A3A;
+}
+
+span {
+    color: #3A3A3A;
+}
+
 .page-margin {
     width: 1250px;
-    border: 2px solid rgba(112, 128, 144, 0.05);
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 50px 0;
+}
+
+.header-nav>.page-margin {
+    margin-bottom: 0;
 }
 
 .navigation {
@@ -47,7 +59,7 @@ body {
 
 .menu-list>li>a {
     text-decoration: none;
-    margin: 10px;
+    margin: 20px;
     color: black;
 }
 
@@ -64,6 +76,12 @@ body {
 
 .article-section {
     display: flex;
+
+}
+
+.article-title {
+    color: #3A3A3A;
+    font-size: 4em;
 }
 
 .article-details.right {
@@ -73,9 +91,9 @@ body {
 .action-button {
     padding: 8px 15px;
     text-decoration: none;
-    background-color: orangered;
+    background: #E02C6D;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .fa-arrow-right {
@@ -98,10 +116,28 @@ body {
 /* Product Category  */
 /* Product Category  */
 /* Product Category  */
+.product-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-chapter {
+    font-size: 2em;
+}
+
 .product-category {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 50px;
+}
+
+.Product {
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
 }
 
 .product-title,
@@ -112,7 +148,7 @@ body {
 
 
 .product-image {
-    width: 90%;
+    width: 100%;
 }
 
 .fa-star {
@@ -121,4 +157,34 @@ body {
 
 .fa-star.empty-star {
     color: rgb(202, 202, 202);
+}
+
+.article-title.featured {
+    color: #0A0826;
+    font-size: 2em;
+}
+
+/* footer styele here  */
+/* footer styele here  */
+/* footer styele here  */
+.footer-element {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+
+.footer-title {
+    margin: 10px;
+}
+
+.white-color {
+    color: white;
+}
+
+.footer-icon .fa {
+    padding: 0 10px;
+    font-size: 2em;
 }
