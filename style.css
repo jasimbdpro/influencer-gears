@@ -7,10 +7,19 @@ body {
 
 .page-margin {
     width: 1250px;
+    border: 2px solid rgba(112, 128, 144, 0.05);
+    margin-bottom: 20px;
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -20,6 +29,16 @@ body {
 
 .menu-list {
     display: flex;
+}
+
+#search-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#cart-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }
 
 .menu-list>li {
@@ -37,6 +56,12 @@ body {
 /* main contents css  */
 /* main contents css  */
 /* main contents css  */
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .induction-section {
     display: flex;
 }
@@ -59,7 +84,6 @@ body {
 }
 
 .partner-logo {
-    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
